@@ -1,0 +1,19 @@
+{
+  "name": "rxjstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "intro": "node src/introduction.js",
+    "map": "node src/operators/map.js",
+    "flatMap": "node src/operators/flatMap.js",
+    "switchMap": "node src/operators/switchMap.js",
+    "concatMap": "node src/operators/concatMap.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andrew",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^6.5.2"
+  }
+}

@@ -1,0 +1,30 @@
+Relationship to what we do
+
+One thing that I really took away from the recent work that I've done with Observables is the flexibility that it affords us
+
+Knowledge of the different operators that are less commonly used -> we can start building things in terms of how a system should make sense
+
+search functionality
+
+1. something tells me to initiate lookup
+
+2. i then want to start getting initial search information
+2. i may also want to start timer here
+2. i may be running concurrent searches here
+2. i may set up listeners (like we do in iframe)
+
+3. search is complete, i may want a listener to push out the results
+3. i may want to combine results from different streams that I've split apart
+3. i'll want to end the search timer if i'm using it for logging, or it may even be the trigger that ends all my searches
+
+4. 
+
+
+Distinctness
+Tabs, Verticals, Unique Searches
+
+Benefits of Distinctness in our system
+Dealing with particular searches, particular users, particular sites
+
+Rajesh said before - none of the things we're doing with other sites are a given
+We're not guaranteed a contract, which can be added to our design
